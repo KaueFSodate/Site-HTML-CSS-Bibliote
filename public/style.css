@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+    height: 100vh;
+    background-color: #EEFCCE;
+    animation-name: transparencia;
+    animation-duration: 6s;
+}
+
+h1, h3, p{
+    color: #041B15;
+}
+
+
+
+.sectionMain{
+
+    height: 65vh;
+    padding: 40px;
+    margin: 2px;
+}
+
+.sectionMain h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sectionMain p{
+    font-size: 18px;
+}
+
+.sectionFooter{
+    height: 20vh;
+    margin: 2px;
+    padding: 40px;
+}
+
+.sectionFooter h3{
+    font-size: 20px;
+}
+
+.sectionFooter p{
+    font-size: 16px;
+}
+
+@keyframes transparencia {
+    from {
+      opacity: 0; 
+    }
+    to {
+      opacity: 1; 
+    }
+}
+
+.containerTotal{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formLogin{
+    background-color: #393E41;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 20vw;
+}
+
+.formLogin h2{
+    margin: 10px;
+    color: azure;
+}
+
+.formLogin label{
+    margin: 10px;
+    color: azure;
+}
+
+.formLogin input{
+    margin: 10px;
+}
+
+.formLogin button{
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.formLogin button:hover{
+    margin: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.formLogin a{
+    text-decoration: none;
+    color: azure;
+}
+
+.formCadastrar{
+    background-color: #393E41;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    width: 25vw;
+}
+
+.formCadastrar h2{
+    margin: 10px;
+    color: azure;
+}
+
+.formCadastrar label{
+    margin: 10px;
+    color: azure;
+}
+
+.formCadastrar input{
+    margin: 10px;
+}
+
+.formCadastrar button{
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.formCadastrar button:hover{
+    margin: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.formCadastrar a{
+    text-decoration: none;
+    color: azure;
+}
+
+.sectionListarLivros{
+    height: 140vh;
+    padding: 40px;
+    margin: 2px;
+}
+
+.sectionListarLivros h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sectionListarLivros p{
+    font-size: 18px;
+}
+
